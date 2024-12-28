@@ -30,173 +30,105 @@
 
 <!-- How We work end-->
 
-  <!-- .page-section -->
-
-  <!-- .page-section -->
-<div class="page-section banner-seo-check">
-  <div class="wrap bg-image" style="background-image: url(../assets/img/bg_pattern.svg);">
-    <div class="container text-center">
-      <div class="row justify-content-center wow fadeInUp">
-        <div class="col-lg-8">
-          <h2 class="mb-4">Our Achievements</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <h3 class="text">120+</h3>
-              <p>Happy Clients</p>
-            </div>
-            <div class="col-md-4">
-              <h3 class="text">50+</h3>
-              <p>Team Members</p>
-            </div>
-            <div class="col-md-4">
-              <h3 class="text">300+</h3>
-              <p>Total Delivery</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- .container -->
-  </div> <!-- .wrap -->
-</div> <!-- .page-section -->
+  <!-- cout-down-start-->
+  <?php $template->load_template('template','cout-down');?>
+ <!-- cout-down-start-->
 
   <!-- our service start -->
   <?php $template->load_template('template','our-service');?>
   <!-- our service end -->
 
-  <!-- Banner info -->
-  <div class="page-section banner-info">
-    <div class="wrap bg-image" style="background-image: url(../assets/img/bg_pattern.svg);">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
-            <h2 class="title-section">SEO to Improve Brand <br> Visibility</h2>
-            <div class="divider"></div>
-            <p>We're an experienced and talented team of passionate consultants who breathe with search engine marketing.</p>
-            
-            <ul class="theme-list theme-list-light text-white">
-              <li>
-                <div class="h5">SEO Content Strategy</div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-              </li>
-              <li>
-                <div class="h5">B2B SEO</div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 py-3 wow fadeInRight">
-            <div class="img-fluid text-center">
-              <img src="assets/img/banner_image_2.svg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- .wrap -->
-  </div> <!-- .page-section -->
+  <!-- why choose start -->
+  <?php $template->load_template('template','why-choose');?>
 
-  <!-- Blog -->
+   <!-- why choose end -->
+
+  <!-- contact us start -->
   <div class="page-section">
     <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="subhead">Our Blog</div>
-        <h2 class="title-section">Read Latest News</h2>
-        <div class="divider mx-auto"></div>
+      <div class="row text-center align-items-center">
+        <div class="col-lg-4 py-3">
+          <div class="display-4 text-center text-primary"><span class="mai-pin"></span></div>
+          <p class="mb-3 font-weight-small text-lg">Address</p>
+          <p class="mb-0 text-secondary">1 & 2, Clemens Rd, near Super Saravana Stores, Purasaiwakkam, Chennai, Tamil Nadu 600007</p>
+        </div>
+        <div class="col-lg-4 py-3">
+          <div class="display-4 text-center text-primary"><span class="mai-call"></span></div>
+          <p class="mb-3 font-weight-small text-lg">Phone</p>
+          <p class="mb-0"><a href="tel:7200408132" class="text-secondary">+91 7200408132</a></p>
+          <!-- <p class="mb-0"><a href="#" class="text-secondary">+00 1122 3344 5566</a></p> -->
+        </div>  
+        <div class="col-lg-4 py-3">
+          <div class="display-4 text-center text-primary"><span class="mai-mail"></span></div>
+          <p class="mb-3 font-weight-small text-lg">Email Address</p>
+          <p class="mb-0"><a href="mailto:professionaldrycleaners123@gmail.com" class="text-secondary">professionaldrycleaners123@gmail.com</a></p>
+          <!-- <p class="mb-0"><a href="#" class="text-secondary">hello@seogram.com</a></p> -->
+        </div>
       </div>
+    </div>
 
-      <div class="row mt-5">
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="assets/img/blog/blog-1.jpg" alt="">
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <form action="#" class="contact-form py-5 px-lg-5">
+            <h2 class="mb-4 font-weight-medium text-secondary">Get in touch</h2>
+            <div class="row form-group">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <label class="text-black" for="fname">First Name</label>
+                <input type="text" id="fname" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <label class="text-black" for="lname">Last Name</label>
+                <input type="text" id="lname" class="form-control">
               </div>
             </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="assets/img/blog/blog-2.jpg" alt="">
+    
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="text-black" for="email">Email</label>
+                <input type="email" id="email" class="form-control">
               </div>
             </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+    
+            <div class="row form-group">
+    
+              <div class="col-md-12">
+                <label class="text-black" for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control">
+              </div>
             </div>
+    
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="text-black" for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+              </div>
+            </div>
+    
+            <div class="row form-group mt-4">
+              <div class="col-md-12">
+                <input type="submit" value="Send Message" class="btn btn-primary">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6 px-0">
+
+          <div class="maps-container">
+            <div id="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2048106682114!2d80.2574339!3d13.086202499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52657d52907c51%3A0xb712cd6e21e4da0b!2sProfessional%20Dry%20Cleaners%20-%20Purasawakkam!5e0!3m2!1sen!2sin!4v1735386949677!5m2!1sen!2sin" width="600" height="680" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="assets/img/blog/blog-3.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 mt-4 text-center wow fadeInUp">
-          <a href="blog.html" class="btn btn-primary">View More</a>
         </div>
       </div>
     </div>
   </div>
+ <!-- contact us end  -->
 
-  <footer class="page-footer bg-image" style="background-image: url(assets/img/world_pattern.svg);">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-lg-3 py-3">
-          <h3>SEOGram</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
-
-          <div class="social-media-button">
-            <a href="#"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#"><span class="mai-logo-twitter"></span></a>
-            <a href="#"><span class="mai-logo-google-plus-g"></span></a>
-            <a href="#"><span class="mai-logo-instagram"></span></a>
-            <a href="#"><span class="mai-logo-youtube"></span></a>
-          </div>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Company</h5>
-          <ul class="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Help & Support</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Contact Us</h5>
-          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-          <a href="#" class="footer-link">+00 1122 3344 5566</a>
-          <a href="#" class="footer-link">seogram@temporary.com</a>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Newsletter</h5>
-          <p>Get updates, news or events on your mail.</p>
-          <form action="#">
-            <input type="text" class="form-control" placeholder="Enter your email..">
-            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
-          </form>
-        </div>
-      </div>
-
-      <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
-    </div>
-  </footer>
+ <!-- footer start -->
+ <?php $template->load_template('template','footer');?>
+ <!-- footer end -->
 
 <script src="assets/js/jquery-3.5.1.min.js"></script>
 
