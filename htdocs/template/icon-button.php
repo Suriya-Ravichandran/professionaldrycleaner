@@ -1,7 +1,7 @@
-<a href="tel:9500993047">
+<a href="tel:7200408132">
   <button class="btn-floating phone">
     <img src="https://i.imgur.com/FZuns9L.png" alt="Phone">
-    <span>+91 9500993047</span>
+    <span>+91 7200408132</span>
   </button>
 </a>
 
