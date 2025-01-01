@@ -123,6 +123,10 @@ a.bg-grey:hover, a.bg-grey:focus {
   background-color: #7d7a99 !important;
 }
 
+.bg-home{
+  background-color: #d0d8dd !important;
+}
+
 .bg-light {
   background-color: #F6F5FC !important;
 }
@@ -140,7 +144,7 @@ a.bg-dark:hover, a.bg-dark:focus {
 }
 
 .text-primary {
-  color: #6C55F9 !important;
+  color: #0B58A3 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -180,7 +184,7 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #FAC14D !important;
+  color: #FCDA04 !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
@@ -409,7 +413,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* Buttons */
 .btn-primary {
   color: #fff;
-  background-color: #6C55F9;
+  background-color: #0B58A3;
   border-color: transparent;
 }
 
@@ -529,7 +533,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-warning {
   color: #343531;
-  background-color: #FAC14D;
+  background-color: #FCDA04;
   border-color: transparent;
 }
 
@@ -1074,7 +1078,7 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: 500;
-  color: #6C55F9;
+  color: #0B58A3;
 }
 
 
@@ -1100,7 +1104,9 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 16px;
     padding-left: 16px;
+
   }
+
   .navbar-expand-md .navbar-nav {
     align-items: center;
   }
@@ -1379,7 +1385,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-banner.home-banner .btn-scroll:hover {
   text-decoration: none;
-  background-color: #6C55F9;
+  background-color: #0B58A3;
   color: #fff;
 }
 
@@ -1430,7 +1436,17 @@ a.text-dark:hover, a.text-dark:focus {
   width: 32px;
   height: 3px;
   border-radius: 40px;
-  background-color: #6C55F9;
+  background-color: #0B58A3;
+}
+
+.divider2 {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 32px;
+  height: 3px;
+  border-radius: 40px;
+  background-color: #fff;
 }
 
 
@@ -1453,7 +1469,7 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 32px;
   text-align: center;
   background-color: #fff;
-  color: #6C55F9;
+  color: #0B58A3;
 }
 
 
@@ -1518,7 +1534,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .banner-seo-check {
   padding: 0;
-  background-image: radial-gradient(circle, #B262F8 15%, #5439F8);
+  background-image: radial-gradient(circle, #0B58A3 15%, #16134A);
   color: #fff;
 }
 
@@ -1639,7 +1655,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .banner-info {
   padding: 0;
-  background-color: #5439F8;
+  background-color: #0B58A3;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -2100,11 +2116,11 @@ a.text-dark:hover, a.text-dark:focus {
 /* Phone */
 .btn-floating.phone {
     bottom: 85px;
-    background-color: #760f10;
+    background-color: #0B58A3;
 }
 
 .btn-floating.phone:hover {
-    background-color: #c03421;
+    background-color: #16134A;
 }
 
 /* WhatsApp */
