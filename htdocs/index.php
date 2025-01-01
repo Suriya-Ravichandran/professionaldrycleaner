@@ -1,4 +1,5 @@
 <?php
+session_start();
  include 'libs/template.class.php';
 
  $template = new template();
@@ -67,6 +68,20 @@
 <script src="assets/js/theme.js"></script>
 <script src="assets/js/coutdown.js"></script>
 <script src="assets/js/active.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+ <!-- alert message -->
+ <script>
+    var messageText = "<?php echo $_SESSION['Status'] ?? ''; ?>";
+    if (messageText !== '') {
+        Swal.fire({
+            title: "Thank You",
+            text: messageText,
+            icon: "success"
+        });
+      <?php unset($_SESSION['Status']); ?>;
+    }
+  </script>
   
 </body>
 </html>

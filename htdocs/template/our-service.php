@@ -137,7 +137,7 @@
               </div>
               </div>
               <h4 class="text-primary"><b>Dye</b></h4>
-              <p>Restore your saree's shine with gentle polishing.</p>
+              <p>Refresh and change the color of your clothes with professional dyeing.</p>
             </div>
             <div class="footer">
               <a href="https://api.whatsapp.com/send?phone=7200408132" class="btn btn-primary btn-block">Book Now</a>
